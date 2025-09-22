@@ -1,58 +1,96 @@
-/* 1. Container do card */
-.card {
-  /* background: (cor ou imagem de fundo); */
-  /* width: (largura fixa ou responsiva); */
-  /* margin: (centralizar no body ou espaçamento externo); */
-  /* border: (largura, estilo, cor); */
-  /* border-radius: (arredondar cantos); */
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    font-family: "Vollkorn";
+    font-size: 30px;
+}
+.container{
+    max-width: 1252px;
+    margin-left: auto;
+    margin-right: auto;
+
+   
+}
+/*formatação geral*/
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Suez One";
 }
 
-/* 2. Imagem do perfil */
-.card figure img {
-  /* width: 100%; */
-  /* height: auto; */
-  /* display: (bloco); */
+
+
+/*bloco da area hero*/
+.hero {
+    padding: 210px 0;
+    text-align: center;
+    font-size: 30px;
+    background: #f6f6f6;
+    color: #3D537C;
 }
 
-/* 3. Corpo do card */
-.card-body {
-  /* padding: (espaço interno); */
+.hero-subtitle {
+    font-weight: bold;
 }
 
-/* 4. Título */
-.card-title {
-  /* font-size: (tamanho do título); */
-  /* font-weight: (negrito ou normal); */
-  /* margin-top: (espaçamento acima do título); */
-  /* margin-bottom: (espaçamento abaixo do título); */
-  /* color: (cor do texto); */
+.hero-title {
+    font-size: 150px;
+
+
 }
 
-/* 5. Subtítulo */
-.card-subtitle {
-  /* font-size: (um pouco menor que o título); */
-  /* font-weight: (peso da fonte); */
-  /* margin-bottom: (espaço antes do parágrafo); */
-  /* color: (cor mais suave); */
+
+/*formatação dos blocos*/
+.content-block {
+    display: flex;
+    justify-content: space-between;
+}
+.direction-coluna{
+    flex-direction: column;
+}
+.reverse{
+    flex-direction: row-reverse ;
+
+}
+.content-block h2{
+    font-size: 60px;
 }
 
-/* 6. Texto descritivo */
-.card-text {
-  /* font-size: (tamanho legível); */
-  /* margin-bottom: (espaço antes do botão); */
-  /* color: (cor do texto principal); */
+.content_wrapper {
+width: 50%;
 }
 
-/* 7. Botão */
-.card-btn {
-  /* display: (em linha e bloco); */
-  /* padding: (espaço interno do botão); */
-  /* background-color: (cor de fundo do botão); */
-  /* color: (cor do texto do botão); */
-  /* text-decoration: none; */
-  /* text-align: center; */
-  /* font-weight: bold; */
-  /* border-radius: (arredondar cantos); */
+
+/* celular*/
+@media (max-width: 76px){
+    .hero-title {
+        font-size: 24px;
+        color: rgb(255, 6, 143);
+    }
+    .content-block {
+        padding: 0 24px;
+        flex-direction: column;
+    }
+    .content_wrapper {
+        width: 100%;
+        }
+
 }
 
-/* --- FIM DO CSS SCAFFOLDING --- */
+/* tablet em retrato */
+@media (min-width: 768px) and (max-width: 900px){
+
+    .hero-title {
+        font-size: 50px;
+        color: red;
+    }
+    .content-block {
+        padding: 0 24px;
+        flex-direction: column;
+    }
+    .content_wrapper {
+        width: 100%;
+        }
+
+}
