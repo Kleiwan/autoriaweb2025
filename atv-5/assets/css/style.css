@@ -1,33 +1,27 @@
 .flex{
-    display: flex;
-    flex-direction: row;
-}
+    display: flex;}
+
 
 /*BODY*/
 
 body{
     background-color: #080808;
-    padding: 10px 76px 53.246px 84px;
+    padding: 10px 84px 53.2px 76px;
 }
 
 /*HEADER*/
-.redes{
+
+.sociais{
     color: #5F5F5F;
-    gap:25px;
-}
-
-.navegacao li a {
-    color: #9c9c9c;
-    text-decoration: none;
-}
-
-.navegacao{
-    gap:32px;
 }
 
 nav ul li{
     list-style: none;
+    color: #9c9c9c;
+    text-decoration: none;
+    flex-direction: row-reverse;
 }
+
 nav{
     background-color: #1B1B1B;
     width: 1272px;
@@ -35,35 +29,27 @@ nav{
     padding: 28px 24px;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 80px;
 }
  /*MEIO*/
 
- main{
-    padding-top: 80px;
- }
 
- .nome{
-    color: #FFFFFF;
+
+ .Nome{
+    color: #fff;
     font-size: 44px;
     font-weight: 800;
  }
 
-.trampo{
-    color: #FFFFFF;
+ .Profissão{
+
+    color: #fff;
     font-size: 24px;
     font-weight: 200;
 }
 
- .descricao{
+ .Descrição{
     color: #9C9C9C;
     font-size: 21px;
     font-weight: 400;
  }
-
-.B1B2{
-    row-gap: 10px;
-    flex-direction: column;
- }
-.B1B2 h1, .B1B2 h2{
-    margin: 0px;
-}
