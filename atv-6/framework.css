@@ -5,6 +5,10 @@
     padding: 0
 }
 
+ul {
+    list-style-type: none;
+  }
+
 header {
     background-color: #c62828;
 }
@@ -24,6 +28,36 @@ body {
 main {
     margin: 100px 550px ;
     max-width: 1000px;
+}
+
+/*HEADER*/
+
+.traço{
+    background-color: #EFF2F7;
+    border: solid;
+    border-color: #EFF2F7;
+    border-width: 100px;
+}
+
+.left{
+    margin: auto;
+}
+
+.rigth{
+    margin: auto;
+}
+
+/*main*/
+
+.citacao{
+    background-color: #EFF2F7;
+    border-radius: 5px;
+}
+
+/*baixo*/
+
+.ligther{
+    font-weight: lighter;
 }
 
 /*TIPOGRAFY*/
