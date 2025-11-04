@@ -5,10 +5,18 @@
     padding: 0
 }
 
+ul {
+    list-style-type: none;
+  }
+
 header {
     background-color: #c62828;
+<<<<<<< HEAD
     color: #FFFFFF;
     margin: auto;
+=======
+
+>>>>>>> 8c0d9ef629fb5d4bfb7671cafa192acf9d14afca
 }
 
 img {
@@ -25,6 +33,66 @@ body {
 
 main {
     margin: 100px 550px ;
+<<<<<<< HEAD
+=======
+    max-width: 1900px;
+}
+
+/*HEADER*/
+
+.linha-horizontal-red{
+    border-top: 3px solid red; 
+    width: 100px;
+    margin-top: 100px;
+    border-radius: 50px;
+}
+
+
+.linha-horizontal{
+    border-top: 2px solid #fff; 
+    width: 300px;
+    margin: 20px auto;
+    height: 0;
+}
+
+.left{
+    margin: auto;
+}
+
+.rigth{
+    margin: auto;
+    margin-left: 0px;
+    margin-right: 500px;
+}
+.linha-vertical {
+    border-left: 2px solid #fff; 
+    height: 60px;
+    margin: 0px 30px 0px 30px;
+}
+
+/*article*/
+
+.aspas-container{
+    display: flex;
+    justify-content: center;
+}
+
+.aspas{
+    width: 70px;
+    height: 65px;
+    
+}
+
+.citacao{
+    background-color: #EFF2F7;
+    border-radius: 5px;
+}
+
+/*baixo*/
+
+.ligther{
+    font-weight: lighter;
+>>>>>>> 8c0d9ef629fb5d4bfb7671cafa192acf9d14afca
 }
 
 /*HEADER*/
@@ -61,8 +129,7 @@ header ul li{
 /*TIPOGRAFY*/
 
 .categoria {
-    padding-top: 30px;
-    padding-left: 660px;
+    justify-content: end;
     color: #374151;
     font-size: 14px;
 }
@@ -94,6 +161,10 @@ header ul li{
     margin-bottom: 1rem
 }
 
+.p-1{
+    padding: .9rem;
+}
+
 .p-2 {
     padding: .5rem
 }
@@ -110,6 +181,11 @@ header ul li{
 .primary {
     color: #c62828
 }
+
+.withe{
+    color: #fff;
+}
+
 
 .chip {
     border: 1px solid #e57373;

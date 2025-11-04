@@ -12,12 +12,23 @@
 
     <!--COMO COLOCAR AS LINHAS BRANCAS DO HEADER-->
 
+    <header class="withe p-1">
+        <div class="flex">
+            <div class="left flex items-center between">
     <header>
         <div class="flex container between">
             <div class="left flex items-center">
                 <img src="img/logo.png" alt="logotipo">
+                <p class="linha-vertical"></p>
+
+                <em>por Sérgio Trindade</em>
                 <em class="afastar">por Sérgio Trindade</em>
             </div>
+            <div class="rigth ">
+                <ul class="between row flex p-1">
+                    <p class="linha-horizontal"></p>
+                    <li><a class="withe" href="#"> O BLOG</a></li>
+                    <li><a class="withe" href="#">DOWLOAD</a></li>
             <div class="rigth flex items-center">
                 <ul class="flex row">
                     <li><a href="#" class="collor afastar-2"> O BLOG</a></li>
@@ -30,16 +41,21 @@
     <main>
         <!--COMO MOVER ESSAS ASPAS VERMELHAS PARA A LATERAL DO TEXTO-->
         <article>
-            <img src="img/aspas.png" alt="imagem das aspas">
-            <h1 class="h1">Simão celerado: do nascimento à morte da democracia (VI) - o caso Alan Gideon</h1>
+            <div class="aspas-container">
+                <img class="aspas" src="img/aspas.png" alt="imagem das aspas">
+                <h1 class="h1">Simão celerado: do nascimento à morte da democracia (VI) - o caso Alan Gideon</h1>
+            </div>
             <div>
-                <p class="p-3">
-                    por <a href="#">Sérgio Trindade</a> foi publicado em 16.out.2018
+                <p class="p-3 citacao">
+                    por <a class="primary " href="#">Sérgio Trindade</a> foi publicado em 16.out.2018
                 </p>
+                <p class="p-2">Filho de Jacinto de Souza Rojão, um dos mais queridos funcionários da Escola Federal de
+                    Educação,
                 <p class="muted mt-4">Filho de Jacinto de Souza Rojão, um dos mais queridos funcionários da Escola Federal de Educação,
                     Ciência, Filosofia e Tecnologia do Rio das Mortes (EFECFTRM), Alan Gideon assumiu vaga de concurso,
                     como administrador...</p>
             </div>
+            <a class="primary" href="#">Continue lendo</a>
 
             <!--ESPASSAMENTO ENTRE OS TEXTOS-->
 
@@ -48,6 +64,18 @@
             <!--OS NÚMEROS NO CANTO DE CADA LI-->
 
         </article>
+
+        <p class="linha-horizontal-red"></p>
+        <h2 class="ligther muted mt-4 ">Principais Categorias</h2>
+        <ul class="flex mt-4 gap-2 items-center">
+            <li class="chip" a href=""></a> CONTOS E CRÔNICAS</li>
+            <li class="chip" a href=""></a> CANGAÇO</li>
+            <li class="chip" a href=""></a> BRASIL</li>
+            <li class="chip" a href=""></a> ECONOMIA</li>
+            <li class="chip" a href=""></a> HISTÓRIA DO BRASIL</li>
+        </ul>
+        <div class="categoria flex">
+            <a class="muted" href="#">Ver todas as cateorias</a>
         <img class="mt-2" src="img/Rectangle 29 (1).png" alt="">
             <h2 class="muted ligther mb-4 mt-2">Principais Categorias</h2>
             <ul class="flex gap-2">
