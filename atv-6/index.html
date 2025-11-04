@@ -10,23 +10,25 @@
 
 <body>
 
+    <!--COMO COLOCAR AS LINHAS BRANCAS DO HEADER-->
+
     <header>
-        <div class="container flex ">
-            <div class="left between">
+        <div class="flex container between">
+            <div class="left flex items-center">
                 <img src="img/logo.png" alt="logotipo">
-                <em>por Sérgio Trindade</em>
+                <em class="afastar">por Sérgio Trindade</em>
             </div>
-            <div class="rigth between">
+            <div class="rigth flex items-center">
                 <ul class="flex row">
-                    <li><a href="#"> O BLOG</a></li>
-                    <li></li>
-                    <li><a href="#">DOWLOAD</a></li>
+                    <li><a href="#" class="collor afastar-2"> O BLOG</a></li>
+                    <li><a href="#" class="collor afastar-3">DOWLOAD</a></li>
                 </ul>
             </div>
         </div>
     </header>
 
     <main>
+        <!--COMO MOVER ESSAS ASPAS VERMELHAS PARA A LATERAL DO TEXTO-->
         <article>
             <img src="img/aspas.png" alt="imagem das aspas">
             <h1 class="h1">Simão celerado: do nascimento à morte da democracia (VI) - o caso Alan Gideon</h1>
@@ -34,22 +36,29 @@
                 <p class="p-3">
                     por <a href="#">Sérgio Trindade</a> foi publicado em 16.out.2018
                 </p>
-                <p class="p-2">Filho de Jacinto de Souza Rojão, um dos mais queridos funcionários da Escola Federal de Educação,
+                <p class="muted mt-4">Filho de Jacinto de Souza Rojão, um dos mais queridos funcionários da Escola Federal de Educação,
                     Ciência, Filosofia e Tecnologia do Rio das Mortes (EFECFTRM), Alan Gideon assumiu vaga de concurso,
                     como administrador...</p>
             </div>
+
+            <!--ESPASSAMENTO ENTRE OS TEXTOS-->
+
             <a href="#">Continue lendo</a>
+
+            <!--OS NÚMEROS NO CANTO DE CADA LI-->
+
         </article>
-        <h2 class="mutted">Principais Categorias</h2>
-        <ul class="flex between">
-            <li class="chip" a href=""></a> CONTOS E CRÔNICAS</li>
-            <li class="chip" a href=""></a> CANGAÇO</li>
-            <li class="chip" a href=""></a> BRASIL</li>
-            <li class="chip" a href=""></a> ECONOMIA</li>
-            <li class="chip" a href=""></a> HISTÓRIA DO BRASIL</li>
-        </ul>
-        <div class="categoria">
-            <a href="#">Ver todas as cateorias</a>
+        <img class="mt-2" src="img/Rectangle 29 (1).png" alt="">
+            <h2 class="muted ligther mb-4 mt-2">Principais Categorias</h2>
+            <ul class="flex gap-2">
+                <li class=" chip" a href=""></a> CONTOS E CRÔNICAS</li>
+                <li class=" chip" a href=""></a> CANGAÇO</li>
+                <li class=" chip" a href=""></a> BRASIL</li>
+                <li class=" chip" a href=""></a> ECONOMIA</li>
+                <li class=" chip" a href=""></a> HISTÓRIA DO BRASIL</li>
+            </ul>
+            <div>
+                <a class="mt-4 categoria muted" href="#">Ver todas as cateorias</a>
         </div>
     </main>
 </body>
