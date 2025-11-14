@@ -9,6 +9,8 @@ body{
     padding: 10px 84px 53.2px 76px;
 }
 
+
+
 /*HEADER*/
 
 .sociais{
@@ -24,12 +26,12 @@ nav ul li{
 
 nav{
     background-color: #1B1B1B;
-    width: 1272px;
-    height: 74px;
-    padding: 28px 24px;
+    width: 1272vw;
+    height: 74vw;
+    padding: 28vw 24vw;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom:24vvw;
 }
  /*MEIO*/
 
@@ -37,19 +39,35 @@ nav{
 
  .Nome{
     color: #fff;
-    font-size: 44px;
+    font-size: 21rem;
     font-weight: 800;
  }
 
  .Profissão{
 
     color: #fff;
-    font-size: 24px;
+    font-size: 24em;
     font-weight: 200;
 }
 
  .Descrição{
     color: #9C9C9C;
-    font-size: 21px;
+    font-size: 21em;
     font-weight: 400;
+ }
+
+ /*footer*/
+
+ .figma{
+    padding: 25px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #9C9C9C;
+    color: #fff;
+ }
+
+ @media (max-width: 768px) {
+    body{
+        max-width: auto;
+    }
  }
